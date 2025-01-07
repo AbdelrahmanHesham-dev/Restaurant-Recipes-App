@@ -33,10 +33,10 @@ const isMenuOpen = ref(false);
           <NuxtLink to="/" class="block py-2 md:py-0">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/recipes" class="block py-2 md:py-0">Recipes</NuxtLink>
+          <NuxtLink to="#recipes" class="block py-2 md:py-0">Recipes</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/about" class="block py-2 md:py-0">About</NuxtLink>
+          <NuxtLink to="#about" class="block py-2 md:py-0">About</NuxtLink>
         </li>
       </ul>
     </nav>
