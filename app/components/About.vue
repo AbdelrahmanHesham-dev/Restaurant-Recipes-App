@@ -3,7 +3,7 @@
 <template>
   <section class="about-section py-16 px-4 bg-[#f1f1f1]">
     <div class="container mx-auto text-center">
-      <h2 class="text-3xl font-bold text-dodgeroll-gold mb-6">
+      <h2 class="text-5xl font-bold text-dodgeroll-gold mb-6">
         About Our Restaurant
       </h2>
       <p class="text-lg text-gray-700 mb-8">
@@ -18,7 +18,7 @@
             <NuxtImg
               class="rotate-img"
               width="350px"
-              src="/images/hero-sec.png"
+              src="/images/biryani2.png"
               format="webp"
               alt="Restaurant Vision"
             />
@@ -34,8 +34,8 @@
           <div class="mb-6">
             <NuxtImg
               class="rotate-img"
-              width="350px"
-              src="/images/biryani.png"
+              width="200px"
+              src="/images/biryani3.png"
               format="webp"
               alt="Restaurant Mission"
             />
