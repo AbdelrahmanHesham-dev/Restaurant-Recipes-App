@@ -6,7 +6,7 @@
       class="flex flex-col items-center md:items-start text-center md:text-left space-y-4"
     >
       <p class="text-3xl font-bold">Foodly is Available for Android and IOS</p>
-      <div class="flex space-x-4">
+      <div class="flex flex-col md:flex-row">
         <NuxtImg
           class="hover:rotate-6 transition-transform duration-300 rounded-md"
           width="200px"
