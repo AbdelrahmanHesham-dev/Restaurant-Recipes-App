@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="about-section py-16 px-4 bg-[#f1f1f1]">
+  <section class="about-section py-10 px-4 bg-[#f1f1f1]">
     <div class="container mx-auto text-center">
-      <h2 class="text-5xl font-bold text-dodgeroll-gold mb-6">
+      <h2 class="text-5xl font-bold text-dodgeroll-gold mb-6 pt-5">
         About Our Restaurant
       </h2>
       <p class="text-lg text-gray-700 mb-8">
@@ -12,7 +12,7 @@
         sharing our love for food, offering a unique dining experience with
         every bite.
       </p>
-      <div class="flex flex-wrap justify-center gap-8">
+      <div class="flex flex-wrap justify-center gap-8 pb-5">
         <div class="about-card p-6 bg-white rounded-lg shadow-lg">
           <div class="mb-6">
             <NuxtImg
