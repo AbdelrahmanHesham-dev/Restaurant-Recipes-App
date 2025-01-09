@@ -8,7 +8,7 @@ const { data, error } = await useFetch<RecipeResponse>(
 
 <template>
   <main>
-    <section class="bg-[#f1f1f1]">
+    <section id="hero" class="bg-[#f1f1f1]">
       <div
         class="container flex flex-col lg:flex-row items-center py-20 gap-10"
       >
@@ -48,8 +48,11 @@ const { data, error } = await useFetch<RecipeResponse>(
     <section id="about">
       <About />
     </section>
-    <section id="about" class="bg-[#f1f1f1] py-20">
+    <section class="bg-[#f1f1f1] py-20">
       <Application />
+    </section>
+    <section>
+      <Footer />
     </section>
   </main>
 </template>
