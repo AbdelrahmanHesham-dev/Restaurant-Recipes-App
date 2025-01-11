@@ -51,8 +51,5 @@ const { data, error } = await useFetch<RecipeResponse>(
     <section class="bg-[#f1f1f1] py-20">
       <Application />
     </section>
-    <section>
-      <Footer />
-    </section>
   </main>
 </template>
